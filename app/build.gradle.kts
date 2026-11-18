@@ -49,4 +49,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.coil)
+    implementation(libs.recyclerview)
+    implementation(libs.swiperefreshlayout)
+    implementation(libs.material)
+
 }

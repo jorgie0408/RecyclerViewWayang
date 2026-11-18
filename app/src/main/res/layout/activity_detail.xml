@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/ivDetailGambar"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="Foto Wayang" />
+
+        <TextView
+            android:id="@+id/tvDetailNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Wayang"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="20dp" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chipDetailKarakter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="Karakter"
+            app:chipBackgroundColor="#D9EAD3" />
+
+        <TextView
+            android:id="@+id/tvDetailDeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi Wayang"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>
